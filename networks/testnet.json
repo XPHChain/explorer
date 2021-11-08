@@ -1,19 +1,20 @@
 {
-  "title": "TARK Explorer",
-  "server": "http://127.0.0.1:4003/api",
+  "title": "phantomchain Testnet Explorer",
+  "server": "http://80.78.25.40:4003/api/v2",
   "alias": "Testnet local",
-  "activeDelegates": 51,
-  "rewardOffset": 75600,
+  "activeDelegates": "53",
+  "rewardOffset": "250000",
   "currencies": [],
   "knownWallets": {},
   "defaults": {
-    "token": "TARK",
-    "symbol": "TѦ",
+    "token": "XPH",
+    "symbol": "XPH",
     "currency": null,
     "priceChartOptions": {
       "enabled": false,
       "period": "day",
       "type": "price"
-    }
+    },
+    "priceChart": false
   }
 }
